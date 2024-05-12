@@ -3,5 +3,5 @@
     "description": "Adds some weapons that I made in spare time, I always though that the game lacks in how many good weapons exist.",
     "version_number": "0.0.1",
     "dependencies": ["sinai-dev-SideLoader-3.8.3","SLExtendedEffects-SideLoader_ExtendedEffects-1.1.5"],
-    "website_url": "https://github.com/Safadeast/eastprestige"
+    "website_url": "https://github.com/Safadeast/eastsprestige"
 }
