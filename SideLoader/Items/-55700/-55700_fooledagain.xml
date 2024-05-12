@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<SL_MeleeWeapon xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Target_ItemID>2120060</Target_ItemID>
+  <New_ItemID>-57000</New_ItemID>
+  <Name>Golden Ore Hammer</Name>
+  <Description>Time refined from the Fool's gold to the true one gold.
+
+ps.: Dont tell anyone that we just painted it with yellow tint.
+
+
+Inflicts confusion and slow.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags>
+    <string>2 Handed</string>
+    <string>Weapon</string>
+    <string>Item</string>
+    <string>Bludgeon</string>
+    <string>DecraftIron_Large</string>
+    <string>Decraft</string>
+    <string>Main Weapon</string>
+    <string>JustSafadeast</string>
+  </Tags>
+  <StatsHolder xsi:type="SL_WeaponStats">
+    <BaseValue>1200</BaseValue>
+    <RawWeight>12</RawWeight>
+    <MaxDurability>700</MaxDurability>
+    <Damage_Resistance>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>9</Impact_Resistance>
+    <Damage_Protection>0</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Impact_Bonus>0</Impact_Bonus>
+    <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Mana_Regen>0</Mana_Regen>
+    <Movement_Penalty>0</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>0</Heat_Protection>
+    <Cold_Protection>0</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+    <Health_Regen>0</Health_Regen>
+    <Cooldown_Reduction>0</Cooldown_Reduction>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
+    <AttackSpeed>0.9</AttackSpeed>
+    <BaseDamage>
+      <SL_Damage>
+        <Damage>45</Damage>
+        <Type>Physical</Type>
+      </SL_Damage>
+      <SL_Damage>
+        <Damage>5</Damage>
+        <Type>Raw</Type>
+      </SL_Damage>
+    </BaseDamage>
+    <Impact>71</Impact>
+    <StamCost>8</StamCost>
+    <AutoGenerateAttackData>false</AutoGenerateAttackData>
+    <Attacks>
+      <AttackData>
+        <StamCost>7.425</StamCost>
+        <Knockback>71</Knockback>
+        <AttackSpeed>0.9</AttackSpeed>
+        <Damage>
+          <float>30.75</float>
+          <float>10.25</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>7.425</StamCost>
+        <Knockback>71</Knockback>
+        <AttackSpeed>0.9</AttackSpeed>
+        <Damage>
+          <float>30.75</float>
+          <float>10.25</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>8.91</StamCost>
+        <Knockback>142</Knockback>
+        <AttackSpeed>0.9</AttackSpeed>
+        <Damage>
+          <float>23.0625</float>
+          <float>7.6875</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>8.91</StamCost>
+        <Knockback>99.4</Knockback>
+        <AttackSpeed>1.08</AttackSpeed>
+        <Damage>
+          <float>43.0500031</float>
+          <float>14.35</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>8.91</StamCost>
+        <Knockback>99.4</Knockback>
+        <AttackSpeed>1.08</AttackSpeed>
+        <Damage>
+          <float>43.0500031</float>
+          <float>14.35</float>
+        </Damage>
+      </AttackData>
+    </Attacks>
+  </StatsHolder>
+  <ExtensionsEditBehaviour>NONE</ExtensionsEditBehaviour>
+  <ItemExtensions />
+  <EffectBehaviour>Destroy</EffectBehaviour>
+  <EffectTransforms>
+    <SL_EffectTransform>
+      <TransformName>HitEffects</TransformName>
+      <Position>
+        <x>0</x>
+        <y>-0.745</y>
+        <z>2.438</z>
+      </Position>
+      <Rotation xsi:nil="true" />
+      <Scale xsi:nil="true" />
+      <Effects>
+        <SL_Effect xsi:type="SL_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Confusion</StatusEffect>
+          <Buildup>100</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
+          <AffectController>false</AffectController>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Pain</StatusEffect>
+          <Buildup>60</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
+          <AffectController>false</AffectController>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </SL_EffectTransform>
+  </EffectTransforms>
+  <ItemVisuals>
+    <ResourcesPrefabPath>Assets/_Prefabs/_ItemsAssets/2000000_Weapons/2120060_PyriteGreathammer_v</ResourcesPrefabPath>
+    <Prefab_SLPack />
+    <Prefab_AssetBundle />
+    <Prefab_Name />
+    <Position>
+      <x>-0.011</x>
+      <y>0</y>
+      <z>0</z>
+    </Position>
+    <Rotation>
+      <x>90</x>
+      <y>270.000031</y>
+      <z>0</z>
+    </Rotation>
+    <Scale>
+      <x>1</x>
+      <y>1</y>
+      <z>1</z>
+    </Scale>
+    <PositionOffset xsi:nil="true" />
+    <RotationOffset xsi:nil="true" />
+  </ItemVisuals>
+  <EquipSlot>RightHand</EquipSlot>
+  <TwoHandType>TwoHandedRight</TwoHandType>
+  <IKType>None</IKType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <RequiredPlayerType>Normal</RequiredPlayerType>
+  <WeaponType>Mace_2H</WeaponType>
+  <Unblockable>false</Unblockable>
+  <SwingSound>Default</SwingSound>
+  <SpecialIsZoom>false</SpecialIsZoom>
+  <HealthLeechRatio>0</HealthLeechRatio>
+  <HealthBurnLeechRatio>0</HealthBurnLeechRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
+  <LinecastCount>10</LinecastCount>
+  <Radius>0.1</Radius>
+</SL_MeleeWeapon>

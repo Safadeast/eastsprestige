@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<SL_MeleeWeapon xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Target_ItemID>5110050</Target_ItemID>
+  <New_ItemID>-57009</New_ItemID>
+  <Name>Outkast Chakram</Name>
+  <Description>Chakram spells are necessary to use this off-hand weapon.
+
+What's cooler than being cool? Ice Cold! </Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags>
+    <string>Weapon</string>
+    <string>Item</string>
+    <string>Chakram</string>
+    <string>Trinket</string>
+    <string>Kazite</string>
+    <string>Family</string>
+    <string>DecraftIron_Small</string>
+    <string>Decraft</string>
+  </Tags>
+  <StatsHolder xsi:type="SL_WeaponStats">
+    <BaseValue>200</BaseValue>
+    <RawWeight>2</RawWeight>
+    <MaxDurability>350</MaxDurability>
+    <Damage_Resistance>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>0</Impact_Resistance>
+    <Damage_Protection>0</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Impact_Bonus>0</Impact_Bonus>
+    <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Mana_Regen>0</Mana_Regen>
+    <Movement_Penalty>0</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>0</Heat_Protection>
+    <Cold_Protection>0</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+    <Health_Regen>0</Health_Regen>
+    <Cooldown_Reduction>0</Cooldown_Reduction>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
+    <AttackSpeed>1</AttackSpeed>
+    <BaseDamage>
+      <SL_Damage>
+        <Damage>25</Damage>
+        <Type>Frost</Type>
+      </SL_Damage>
+      <SL_Damage>
+        <Damage>5</Damage>
+        <Type>Raw</Type>
+      </SL_Damage>
+    </BaseDamage>
+    <Impact>47</Impact>
+    <StamCost>0</StamCost>
+    <AutoGenerateAttackData>false</AutoGenerateAttackData>
+    <Attacks>
+      <AttackData>
+        <StamCost>0</StamCost>
+        <Knockback>47</Knockback>
+        <AttackSpeed>1</AttackSpeed>
+        <Damage>
+          <float>34</float>
+        </Damage>
+      </AttackData>
+    </Attacks>
+  </StatsHolder>
+  <ExtensionsEditBehaviour>NONE</ExtensionsEditBehaviour>
+  <ItemExtensions />
+  <EffectBehaviour>Destroy</EffectBehaviour>
+  <EffectTransforms />
+  <ItemVisuals>
+    <ResourcesPrefabPath>Assets/_Prefabs/_ItemsAssets/5000000_Others/5100000_Trinkets/5110050_ChakramKazite_v</ResourcesPrefabPath>
+    <Prefab_SLPack />
+    <Prefab_AssetBundle />
+    <Prefab_Name />
+    <Position>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Position>
+    <Rotation>
+      <x>-0</x>
+      <y>0</y>
+      <z>0</z>
+    </Rotation>
+    <Scale>
+      <x>1</x>
+      <y>1</y>
+      <z>1</z>
+    </Scale>
+    <PositionOffset xsi:nil="true" />
+    <RotationOffset xsi:nil="true" />
+  </ItemVisuals>
+  <SpecialItemVisuals>
+    <ResourcesPrefabPath>Assets/_Prefabs/_ItemsAssets/5000000_Others/5100000_Trinkets/5110050_ChakramKazite_e_v</ResourcesPrefabPath>
+    <Prefab_SLPack />
+    <Prefab_AssetBundle />
+    <Prefab_Name />
+    <Position>
+      <x>0.01</x>
+      <y>0.082</y>
+      <z>0.173</z>
+    </Position>
+    <Rotation>
+      <x>-0</x>
+      <y>-0</y>
+      <z>90</z>
+    </Rotation>
+    <Scale>
+      <x>1</x>
+      <y>1</y>
+      <z>1</z>
+    </Scale>
+    <PositionOffset xsi:nil="true" />
+    <RotationOffset xsi:nil="true" />
+  </SpecialItemVisuals>
+  <EquipSlot>LeftHand</EquipSlot>
+  <TwoHandType>None</TwoHandType>
+  <IKType>None</IKType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <RequiredPlayerType>Normal</RequiredPlayerType>
+  <WeaponType>Chakram_OH</WeaponType>
+  <Unblockable>false</Unblockable>
+  <SwingSound>Default</SwingSound>
+  <SpecialIsZoom>false</SpecialIsZoom>
+  <HealthLeechRatio>0</HealthLeechRatio>
+  <HealthBurnLeechRatio>0</HealthBurnLeechRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
+  <LinecastCount>1</LinecastCount>
+  <Radius>0.7</Radius>
+</SL_MeleeWeapon>

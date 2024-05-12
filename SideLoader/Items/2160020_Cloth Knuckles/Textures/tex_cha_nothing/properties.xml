@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SL_Material xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ShaderName>Nothing</ShaderName>
+  <Keywords>
+    <string>_LIGHTMAPPING_REALTIME</string>
+    <string>_NORMALMAP</string>
+  </Keywords>
+  <Properties />
+  <TextureConfigs />
+</SL_Material>

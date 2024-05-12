@@ -1,0 +1,1 @@
+Some weapons, will update the description as soon as I do more weapons. Also, first time doing mod and uploading them.

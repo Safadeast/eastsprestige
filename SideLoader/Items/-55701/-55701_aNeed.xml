@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<SL_ProjectileWeapon xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Target_ItemID>2200020</Target_ItemID>
+  <New_ItemID>-57001</New_ItemID>
+  <Name>Overlord Bow</Name>
+  <Description>Immense bow which inflicts bleeding on the enemy. 
+
+"And them, without any warning, our commander had shoot a arrow right into their neck, making the start of the Old War D."</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>DrawArrow</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags>
+    <string>Bow</string>
+    <string>Weapon</string>
+    <string>Item</string>
+    <string>Main Weapon</string>
+  </Tags>
+  <StatsHolder xsi:type="SL_WeaponStats">
+    <BaseValue>1000</BaseValue>
+    <RawWeight>5</RawWeight>
+    <MaxDurability>350</MaxDurability>
+    <Damage_Resistance>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>0</Impact_Resistance>
+    <Damage_Protection>0</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Impact_Bonus>0</Impact_Bonus>
+    <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Mana_Regen>0</Mana_Regen>
+    <Movement_Penalty>0</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>0</Heat_Protection>
+    <Cold_Protection>0</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+    <Health_Regen>0</Health_Regen>
+    <Cooldown_Reduction>0</Cooldown_Reduction>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
+    <AttackSpeed>0</AttackSpeed>
+    <BaseDamage>
+      <SL_Damage>
+        <Damage>40</Damage>
+        <Type>Physical</Type>
+      </SL_Damage>
+      <SL_Damage>
+        <Damage>5</Damage>
+        <Type>Electric</Type>
+      </SL_Damage>
+    </BaseDamage>
+    <Impact>25</Impact>
+    <StamCost>4.99</StamCost>
+    <AutoGenerateAttackData>false</AutoGenerateAttackData>
+    <Attacks>
+      <AttackData>
+        <StamCost>4.99</StamCost>
+        <Knockback>25</Knockback>
+        <AttackSpeed>0</AttackSpeed>
+        <Damage>
+          <float>37</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>4.99</StamCost>
+        <Knockback>25</Knockback>
+        <AttackSpeed>0</AttackSpeed>
+        <Damage>
+          <float>37</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>4.99</StamCost>
+        <Knockback>25</Knockback>
+        <AttackSpeed>0</AttackSpeed>
+        <Damage>
+          <float>37</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>4.99</StamCost>
+        <Knockback>25</Knockback>
+        <AttackSpeed>0</AttackSpeed>
+        <Damage>
+          <float>37</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>4.99</StamCost>
+        <Knockback>25</Knockback>
+        <AttackSpeed>0</AttackSpeed>
+        <Damage>
+          <float>37</float>
+        </Damage>
+      </AttackData>
+    </Attacks>
+  </StatsHolder>
+  <ExtensionsEditBehaviour>NONE</ExtensionsEditBehaviour>
+  <ItemExtensions>
+    <SL_ItemExtension xsi:type="SL_WeaponLoadoutItem">
+      <Savable>true</Savable>
+      <AmmunitionType>WeaponType</AmmunitionType>
+      <CompatibleItemID xsi:nil="true" />
+      <CompatibleEquipmentType>Arrow</CompatibleEquipmentType>
+      <MaxProjectileLoaded>1</MaxProjectileLoaded>
+      <SaveRemainingShots>false</SaveRemainingShots>
+      <ShowLoadedAmmunition>true</ShowLoadedAmmunition>
+      <ReduceAmmunitionOnLoad>false</ReduceAmmunitionOnLoad>
+    </SL_ItemExtension>
+    <SL_ItemExtension xsi:type="SL_WeaponCharger">
+      <Savable>false</Savable>
+      <ChargingStaminaCost>1.5</ChargingStaminaCost>
+    </SL_ItemExtension>
+  </ItemExtensions>
+  <EffectBehaviour>Destroy</EffectBehaviour>
+  <EffectTransforms>
+    <SL_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Position xsi:nil="true" />
+      <Rotation xsi:nil="true" />
+      <Scale xsi:nil="true" />
+      <Effects>
+        <SL_Effect xsi:type="SL_ShootItem">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Given</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>1.5</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseProjectile>NONE</BaseProjectile>
+          <ProjectileShots />
+          <InstantiatedAmount>3</InstantiatedAmount>
+          <Lifespan>0</Lifespan>
+          <LateShootTime>0</LateShootTime>
+          <Unblockable>false</Unblockable>
+          <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+          <EndMode>Normal</EndMode>
+          <DisableOnHit>false</DisableOnHit>
+          <IgnoreShooterCollision>true</IgnoreShooterCollision>
+          <TargetingMode>NONE</TargetingMode>
+          <TargetCountPerProjectile>1</TargetCountPerProjectile>
+          <TargetRange>0</TargetRange>
+          <AutoTarget>false</AutoTarget>
+          <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
+          <AutoTargetRange>5</AutoTargetRange>
+          <ProjectileForce>60</ProjectileForce>
+          <AddDirection>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddDirection>
+          <AddRotationForce>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddRotationForce>
+          <YMagnitudeAffect>0</YMagnitudeAffect>
+          <YMagnitudeForce>0</YMagnitudeForce>
+          <DefenseLength>0</DefenseLength>
+          <DefenseRange>0</DefenseRange>
+          <CameraAddYDirection>0</CameraAddYDirection>
+          <ImpactSoundMaterial>Goo</ImpactSoundMaterial>
+          <LightIntensityFade>
+            <x>0</x>
+            <y>0</y>
+          </LightIntensityFade>
+          <PointOffset>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </PointOffset>
+          <TrailEnabled>false</TrailEnabled>
+          <TrailTime>0</TrailTime>
+          <EffectBehaviour>Destroy</EffectBehaviour>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </SL_EffectTransform>
+    <SL_EffectTransform>
+      <TransformName>HitEffects</TransformName>
+      <Position>
+        <x>0</x>
+        <y>-1.031</y>
+        <z>0</z>
+      </Position>
+      <Rotation xsi:nil="true" />
+      <Scale xsi:nil="true" />
+      <Effects>
+        <SL_Effect xsi:type="SL_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Confusion</StatusEffect>
+          <Buildup>45</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
+          <AffectController>false</AffectController>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </SL_EffectTransform>
+  </EffectTransforms>
+  <ItemVisuals>
+    <ResourcesPrefabPath>Assets/_Prefabs/_ItemsAssets/2000000_Weapons/2200020_BowWarbow_v</ResourcesPrefabPath>
+    <Prefab_SLPack />
+    <Prefab_AssetBundle />
+    <Prefab_Name />
+    <Position>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Position>
+    <Rotation>
+      <x>-0</x>
+      <y>0</y>
+      <z>0</z>
+    </Rotation>
+    <Scale>
+      <x>1</x>
+      <y>1</y>
+      <z>1</z>
+    </Scale>
+    <PositionOffset xsi:nil="true" />
+    <RotationOffset xsi:nil="true" />
+  </ItemVisuals>
+  <EquipSlot>RightHand</EquipSlot>
+  <TwoHandType>TwoHandedLeft</TwoHandType>
+  <IKType>None</IKType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <RequiredPlayerType>Normal</RequiredPlayerType>
+  <WeaponType>Bow</WeaponType>
+  <Unblockable>false</Unblockable>
+  <SwingSound>Default</SwingSound>
+  <SpecialIsZoom>true</SpecialIsZoom>
+  <HealthLeechRatio>0</HealthLeechRatio>
+  <HealthBurnLeechRatio>0</HealthBurnLeechRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
+  <AutoLoad>false</AutoLoad>
+  <UnloadOnSheathe>true</UnloadOnSheathe>
+  <UnloadOnEquip>true</UnloadOnEquip>
+  <UnloadOnIncompleteShot>true</UnloadOnIncompleteShot>
+  <LocomotionEnabledOnReload>true</LocomotionEnabledOnReload>
+  <LoadAnim>LoadFromRight</LoadAnim>
+  <FullyBentSound>SFX_LEVER_Wood</FullyBentSound>
+</SL_ProjectileWeapon>

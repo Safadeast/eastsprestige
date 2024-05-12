@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<SL_MeleeWeapon xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Target_ItemID>2140130</Target_ItemID>
+  <New_ItemID>-55702</New_ItemID>
+  <Name>Soul Reaper</Name>
+  <Description>This weapon was meant to hit through the soul of your enemy! Bask in the edgy weapon of the game!</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags>
+    <string>2 Handed</string>
+    <string>Weapon</string>
+    <string>Item</string>
+    <string>Pole Arm</string>
+    <string>Main Weapon</string>
+  </Tags>
+  <StatsHolder xsi:type="SL_WeaponStats">
+    <BaseValue>2500</BaseValue>
+    <RawWeight>7</RawWeight>
+    <MaxDurability>450</MaxDurability>
+    <Damage_Resistance>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>9.6</Impact_Resistance>
+    <Damage_Protection>0</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Impact_Bonus>0</Impact_Bonus>
+    <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>-15</Mana_Use_Modifier>
+    <Mana_Regen>0</Mana_Regen>
+    <Movement_Penalty>0</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>0</Heat_Protection>
+    <Cold_Protection>0</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+    <Health_Regen>0</Health_Regen>
+    <Cooldown_Reduction>0</Cooldown_Reduction>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
+    <AttackSpeed>0.9</AttackSpeed>
+    <BaseDamage>
+      <SL_Damage>
+        <Damage>5</Damage>
+        <Type>Raw</Type>
+      </SL_Damage>
+      <SL_Damage>
+        <Damage>48</Damage>
+        <Type>Ethereal</Type>
+      </SL_Damage>
+    </BaseDamage>
+    <Impact>50</Impact>
+    <StamCost>3</StamCost>
+    <AutoGenerateAttackData>false</AutoGenerateAttackData>
+    <Attacks>
+      <AttackData>
+        <StamCost>3</StamCost>
+        <Knockback>50</Knockback>
+        <AttackSpeed>0.9</AttackSpeed>
+        <Damage>
+          <float>24</float>
+          <float>24</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>3</StamCost>
+        <Knockback>50</Knockback>
+        <AttackSpeed>0.9</AttackSpeed>
+        <Damage>
+          <float>24</float>
+          <float>24</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>3.75</StamCost>
+        <Knockback>65</Knockback>
+        <AttackSpeed>0.99</AttackSpeed>
+        <Damage>
+          <float>31.2</float>
+          <float>31.2</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>3.75</StamCost>
+        <Knockback>65</Knockback>
+        <AttackSpeed>0.99</AttackSpeed>
+        <Damage>
+          <float>31.2</float>
+          <float>31.2</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>5.25</StamCost>
+        <Knockback>85</Knockback>
+        <AttackSpeed>1.17</AttackSpeed>
+        <Damage>
+          <float>40.8</float>
+          <float>40.8</float>
+        </Damage>
+      </AttackData>
+    </Attacks>
+  </StatsHolder>
+  <ExtensionsEditBehaviour>NONE</ExtensionsEditBehaviour>
+  <ItemExtensions />
+  <EffectBehaviour>Destroy</EffectBehaviour>
+  <EffectTransforms>
+    <SL_EffectTransform>
+      <TransformName>HitEffects</TransformName>
+      <Position>
+        <x>0</x>
+        <y>-2.125</y>
+        <z>0</z>
+      </Position>
+      <Rotation xsi:nil="true" />
+      <Scale xsi:nil="true" />
+      <Effects>
+        <SL_Effect xsi:type="SL_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Haunted</StatusEffect>
+          <Buildup>60</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
+          <AffectController>false</AffectController>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </SL_EffectTransform>
+  </EffectTransforms>
+  <ItemVisuals>
+    <ResourcesPrefabPath>Assets/_Prefabs/_ItemsAssets/2000000_Weapons/2140130_BossReward_GhostReaper_v</ResourcesPrefabPath>
+    <Prefab_SLPack />
+    <Prefab_AssetBundle />
+    <Prefab_Name />
+    <Position>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Position>
+    <Rotation>
+      <x>90</x>
+      <y>270</y>
+      <z>0</z>
+    </Rotation>
+    <Scale>
+      <x>1</x>
+      <y>1</y>
+      <z>1</z>
+    </Scale>
+    <PositionOffset xsi:nil="true" />
+    <RotationOffset xsi:nil="true" />
+  </ItemVisuals>
+  <EquipSlot>RightHand</EquipSlot>
+  <TwoHandType>TwoHandedRight</TwoHandType>
+  <IKType>None</IKType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <RequiredPlayerType>None</RequiredPlayerType>
+  <WeaponType>Halberd_2H</WeaponType>
+  <Unblockable>false</Unblockable>
+  <SwingSound>Default</SwingSound>
+  <SpecialIsZoom>false</SpecialIsZoom>
+  <HealthLeechRatio>0</HealthLeechRatio>
+  <HealthBurnLeechRatio>0</HealthBurnLeechRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
+  <LinecastCount>10</LinecastCount>
+  <Radius>0.1</Radius>
+</SL_MeleeWeapon>
